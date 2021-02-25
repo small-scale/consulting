@@ -10,22 +10,9 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
   },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    publicPath: '/',
-    liveReload: true,
-    port: 8888
-  },
-  resolve: {
-      alias:{
-    
-      }
-  },
   module:{
     rules:[
-        { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
-            
+        { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },  
      ]
   },
   plugins: [
@@ -34,7 +21,6 @@ module.exports = {
     new CopyPlugin([
       { from: './src/static', to: "static"},
      // { from: 'CNAME'},
-      { from: './src/pages'},
     ])
 
 ]
