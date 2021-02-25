@@ -1,0 +1,173 @@
+{
+  "inputs": {
+    "index.html.inline.0.css": {
+      "bytes": 236,
+      "imports": []
+    },
+    "_snowpack/pkg/mithril.js": {
+      "bytes": 72798,
+      "imports": []
+    },
+    "view/layout.js": {
+      "bytes": 1797,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/sections/consulting.js": {
+      "bytes": 527,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/sections/projects.js": {
+      "bytes": 5067,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/project/healthnetworks.js": {
+      "bytes": 2191,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/project/lighthouse.js": {
+      "bytes": 2178,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/project/redteam.js": {
+      "bytes": 2160,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/project/referrals.js": {
+      "bytes": 2693,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "view/sections/clients.js": {
+      "bytes": 918,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "index.js": {
+      "bytes": 2628,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/mithril.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/layout.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/sections/consulting.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/sections/projects.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/project/healthnetworks.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/project/lighthouse.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/project/redteam.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/project/referrals.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "view/sections/clients.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/index.html.inline.0.css": {
+      "imports": [],
+      "inputs": {
+        "index.html.inline.0.css": {
+          "bytesInOutput": 83
+        }
+      },
+      "bytes": 182
+    },
+    "../~~bundle~~/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "_snowpack/pkg/mithril.js": {
+          "bytesInOutput": 28065
+        },
+        "view/layout.js": {
+          "bytesInOutput": 624
+        },
+        "view/sections/consulting.js": {
+          "bytesInOutput": 323
+        },
+        "view/sections/projects.js": {
+          "bytesInOutput": 1591
+        },
+        "view/project/healthnetworks.js": {
+          "bytesInOutput": 1539
+        },
+        "view/project/lighthouse.js": {
+          "bytesInOutput": 1511
+        },
+        "view/project/redteam.js": {
+          "bytesInOutput": 1545
+        },
+        "view/project/referrals.js": {
+          "bytesInOutput": 1801
+        },
+        "view/sections/clients.js": {
+          "bytesInOutput": 567
+        },
+        "index.js": {
+          "bytesInOutput": 790
+        }
+      },
+      "bytes": 38357
+    }
+  }
+}
