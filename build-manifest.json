@@ -9,7 +9,7 @@
       "imports": []
     },
     "view/layout.js": {
-      "bytes": 1797,
+      "bytes": 1794,
       "imports": [
         {
           "path": "_snowpack/pkg/mithril.js",
@@ -140,7 +140,7 @@
           "bytesInOutput": 28065
         },
         "view/layout.js": {
-          "bytesInOutput": 624
+          "bytesInOutput": 620
         },
         "view/sections/consulting.js": {
           "bytesInOutput": 323
@@ -167,7 +167,7 @@
           "bytesInOutput": 790
         }
       },
-      "bytes": 38357
+      "bytes": 38353
     }
   }
 }
