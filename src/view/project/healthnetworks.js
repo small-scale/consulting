@@ -27,7 +27,8 @@ const Networks = {
         m("p", {class:"f4-ns inter f5"}, [
             `The resulting report included 27 recommendations, ranging from board composition to data review processes to the design of community platforms. ImproveCareNow hopes to use this work to develop resilient, community-led governance.`
         ]),
-   
+        
+         m("a", {class:"f5-ns f6 mt2 dim inter fw7 link ph3 pv2 mb2 dib white", href:"https://d3n8a8pro7vhmx.cloudfront.net/improvecarenow/pages/5160/attachments/original/1594043919/ICN_Digital_Assets_Final.pdf?1594043919", style:"background-image:linear-gradient(to bottom right, #6a66ff, #7a2cfe)"}, "Read the report"),
 
         m("div", {class:"dt mt3"},[
 
