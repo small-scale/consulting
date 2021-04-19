@@ -36,7 +36,7 @@
       ]
     },
     "view/project/healthnetworks.js": {
-      "bytes": 2191,
+      "bytes": 2519,
       "imports": [
         {
           "path": "_snowpack/pkg/mithril.js",
@@ -149,7 +149,7 @@
           "bytesInOutput": 1591
         },
         "view/project/healthnetworks.js": {
-          "bytesInOutput": 1539
+          "bytesInOutput": 1847
         },
         "view/project/lighthouse.js": {
           "bytesInOutput": 1511
@@ -167,7 +167,7 @@
           "bytesInOutput": 790
         }
       },
-      "bytes": 38353
+      "bytes": 38661
     }
   }
 }
