@@ -14,7 +14,7 @@ const Layout = {
                   ]
                 ),
                 m("div",{class:"dtc v-mid w-75 tr"},[
-                  m("a", {class:"f5-ns f6 inter fw7 link ph3 pv2 mb2 dib white", href:"https://calendly.com/keith-smallscale/web-intro", style:"background-image:linear-gradient(to bottom right, #ff6666, #fe8c65)"}, "Book a time")
+                  m("a", {class:"f5-ns f6 inter fw7 link ph3 pv2 mb2 dib white", href:"https://calendly.com/keithporcaro/web-intro", style:"background-image:linear-gradient(to bottom right, #ff6666, #fe8c65)"}, "Book a time")
                 ])
               ]
             ), 
