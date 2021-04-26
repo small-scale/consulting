@@ -67,29 +67,7 @@ const Projects = {
     }
 }
 
-const ProjectCard = {
-    view:(vnode)=>{
-        return  m("div", {"class":"br4 bn mv4  pa4 pt3 center", "style":`background-color:${vnode.attrs.color}; width:22.5rem`}, [
-            //Logo and title
-            m("div", {class:"dt flex justify-center"},[
-                m("div", {class:"dtc v-mid flex-auto mr2"}, [
-                    m("h2", {class:"mb2 f2 flex-auto lora fw4 lh-title"}, vnode.attrs.title),
-                ]),
-                m("div", {class:"dtc v-mid w-100 mw4"}, [
-                m("img", {class:"pt2 mr1", src:vnode.attrs.icon}),
-                ])
-            ]),
-            //description
-            m("div", {class:"f4 mt2"},[vnode.attrs.description]),
-            //partners
-            m("div", {class:"f4 mt4"},[
-                vnode.attrs.partners.map((partner)=>{
-                    return  m("img", {class:`dtc w4 mr2 ${partner.class ?? ''}`, style:partner.style ?? '', src:partner.logo}) //also partner logo width?
-                })
-            ])         
-        ])
-    }
-}
+
 
 const WideCard = {
     view:(vnode)=>{
@@ -97,7 +75,7 @@ const WideCard = {
             //Logo and title
             m("div", {class:"dt flex items-center justify-between"},[
                 m("div", {class:"dtc v-mid w-third mr3"}, [
-                    m("img", {class:"w-100", src:vnode.attrs.icon}),
+                  m("a",{href:`#!/${vnode.attrs.href}`},[  m("img", {class:"w-100", src:vnode.attrs.icon})]),
                     ]),
                 m("div", {class:"dtc v-mid flex-auto mr2"}, [
                     m("a", {href:`#!/${vnode.attrs.href}`, class:"mb2 black no-underline f3 lora fw4 lh-title"}, vnode.attrs.title),
